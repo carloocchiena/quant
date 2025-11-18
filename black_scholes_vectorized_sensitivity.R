@@ -33,19 +33,25 @@ par(mfrow=c(2, 3))
 
 plot(S_i, output_S$call_option, type = "l", xlab="Stock Prices", 
      ylab="Call Option Price", main="Stock Prices Progression")
+grid(6,6, col="lightgray")
 
 plot(X_i, output_X$call_option, type = "l", xlab="Strike Prices", 
      ylab="Call Option Price", main="Strike Prices Progression")
+grid(6,6, col="lightgray")
 
 plot(r_i, output_r$call_option, type = "l", xlab="Interest Rates", 
      ylab="Call Option Price", main="Interest Rates Progression")
+grid(6,6, col="lightgray")
 
 plot(T_i, output_T$call_option, type = "l", xlab="Time", 
      ylab="Call Option Price", main="Time Progression")
+grid(6,6, col="lightgray")
 
 plot(sigma_i, output_sigma$call_option, type = "l", xlab="Volatilities", 
      ylab="Call Option Price", main="Vol Progression")
+grid(6,6, col="lightgray")
 
 plot(S_i, output_S$call_option, type = "l", xlab="Stock Prices", 
      ylab="Call Option Price", main="Call & Put Prices")
 lines(S_i, output_S$put_option, type="l", col="red" )
+grid(6,6, col="lightgray")
