@@ -7,3 +7,4 @@ A repository to collect material related to the intersection of economics, finan
 - **black_scholes_vectorized_sensitivity**: studies on impact of asset price, strike, time, risk-free rate, time and vol over B&S pricing formula.
 - **fractional_brownian_motion**: implementation and related biography for fractional Brownian motion
 - **gas_TTF_prices**: extractor feed for historical gas prices
+- **historical oil prices**: creates a dump and average of historical oil prices, with a nice chart focused on latest year.
