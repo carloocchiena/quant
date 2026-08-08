@@ -244,6 +244,7 @@ plot(
   output_S$delta,
   type = "l",
   col = "magenta",
+  lwd=2,
   xlab = "Stock Price",
   ylab = "Delta",
   main = "Call Delta"
@@ -259,6 +260,7 @@ plot(
   output_S$gamma,
   type = "l",
   col = "magenta",
+  lwd=2,
   xlab = "Stock Price",
   ylab = "Gamma",
   main = "Call Gamma"
@@ -274,6 +276,7 @@ plot(
   output_S$vega,
   type = "l",
   col = "magenta",
+  lwd=2,
   xlab = "Stock Price",
   ylab = "Vega",
   main = "Call Vega"
@@ -289,6 +292,7 @@ plot(
   output_S$theta,
   type = "l",
   col = "magenta",
+  lwd=2,
   xlab = "Stock Price",
   ylab = "Theta",
   main = "Call Theta"
@@ -304,6 +308,7 @@ plot(
   output_S$rho,
   type = "l",
   col = "magenta",
+  lwd=2,
   xlab = "Stock Price",
   ylab = "Rho",
   main = "Call Rho"
