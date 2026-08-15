@@ -9,3 +9,4 @@ A repository to collect material related to the intersection of economics, finan
 - **gas_TTF_prices**: extractor feed for historical gas prices.
 - **historical oil prices**: creates a dump and average of historical oil prices, with a nice chart focused on latest year.
 - **greeks options chart**: graphical representation of Black-Scholes Greeks.
+- **tutorial ANN**: step-by-step implementation of an Artificial Neural Network over a self-made database in order to estimate Probability of Default (PD).   
